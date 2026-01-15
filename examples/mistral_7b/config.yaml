@@ -1,0 +1,11 @@
+ratio: 0.568
+target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj', 'up_proj', 'down_proj', 'gate_proj']
+compress_strategy: "coala"
+samples: "samples_dataset"
+fp16: False
+adaptive_rank: False
+params:
+  mu: 10
+  log_norms: False
+  accumulate: 8
+  adaptive: True

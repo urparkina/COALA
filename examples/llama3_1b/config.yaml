@@ -1,0 +1,11 @@
+ratio: 0.83                   # approx 90% compress 
+target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj', 'up_proj', 'gate_proj']
+compress_strategy: "coala"    # our method
+samples: "samples_dataset"
+fp16: True                    # in which precision will be compressing
+adaptive_rank: False
+params:
+  mu: 0                       # the parameter of regularization
+  log_norms: False
+  accumulate: 0               # use TSQR accumulation if you want use less memory
+  adaptive: False             # adaptive strategy for choosing mu

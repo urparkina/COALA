@@ -1,0 +1,8 @@
+model_name: 'meta-llama/Llama-2-7b-hf'
+
+tokenizer_config:
+  use_fast: false
+
+num_proc: 10
+
+max_shard_size: '100MB'

@@ -1,0 +1,1 @@
+python3 -u ./generators/generate_math.py $1 ./datasets/GSM8K -s GSM8K

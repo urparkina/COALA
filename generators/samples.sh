@@ -1,0 +1,1 @@
+python3 -u -m generators.generate_samples --num_examples $1 --type $2

@@ -1,0 +1,10 @@
+datasets/*
+
+# Python bytecode
+__pycache__/
+.pytest_cache/
+.coverage
+
+_test/*
+test_/*
+results/*
