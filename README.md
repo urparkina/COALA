@@ -1,5 +1,5 @@
 <p align="center">
-<img src="paws.pdf" width="30%"> <br>
+<img src="logo_paws.png" width="80%"> <br>
 </p>
 
 <div align="center">
