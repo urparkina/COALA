@@ -25,7 +25,7 @@
 
 ## Introduction
   
-> **[SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression](https://arxiv.org/abs/2507.07580)**
+> **[COALA: Numerically Stable and Efficient Framework for Context-Aware Low-Rank Approximation](https://arxiv.org/abs/2507.07580)**
 > 
 > *Uliana Parkina<sup>1</sup>, Maxim Rakhuba<sup>1</sup>*   
 > *<sup>1</sup>HSE University*
